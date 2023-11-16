@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(214, 206, 206);
+    z-index: 12;
+    position: relative;
+    
+   
+}
+.main-section{
+    background: linear-gradient(to right,#8A2387,#E94057,#f27121);
+    box-shadow: 0px 0px 10px black;
+    padding: 2%;
+    margin-top: 5%; 
+    margin-left: 25%;
+    height: 70vh;
+    z-index: 10;
+    position: relative;
+    transform: skewY(-15deg);
+    
+}
+section{
+    max-width: 50%;
+    display: inline-block;
+    z-index: 10;
+    position: relative;
+    
+   
+    
+}
+section:first-child{
+    margin-right: 20%;
+    color: white;
+    
+}
+.main-image {
+    max-width :450px;
+    position: absolute;
+    margin-top: -250px;
+    margin-right: 20%;
+    transition: 0.5s;
+    
+}
+.main-image:hover{
+  transform: scale(1.5);
+    
+}
+
+main{
+    content: "";
+    background: linear-gradient(to right, #B92B27,#1565C0);
+    box-shadow: 0px 0px 10px black;
+    transform: skewY(15deg);
+    inset: 0;
+    z-index: -10;
+     position: relative;
+    
+    
+   
+   
+    
+    
+}
